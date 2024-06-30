@@ -14,8 +14,7 @@ body {
     width: 5rem;
     background-color: aliceblue;
     color: black;
-    background: url(Logo.jpeg) no-repeat center/cover;
-    
+    background: url(../Resources/Logo.jpeg) no-repeat center/cover;
 }
 
 
