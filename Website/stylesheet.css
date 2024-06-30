@@ -34,7 +34,7 @@ body {
 .about{
     width: 100%;
     height: 85%;
-    background:linear-gradient(90deg, rgb(37, 37, 37), rgb(0, 0, 0),transparent),url(img2.jpg) no-repeat center/cover;
+    background:linear-gradient(90deg, rgb(37, 37, 37), rgb(0, 0, 0),transparent),url(../Resources/img2.jpg) no-repeat center/cover;
     color: rgb(243, 238, 238);
     background-color: grey;
     padding-top: 5rem;
@@ -56,7 +56,7 @@ body {
 .how{
     width: 95%;
     height: 110%;
-    background:linear-gradient(270deg, rgb(0, 0, 0), rgb(0, 0, 0),transparent), url(img3.jpg) no-repeat center/cover;
+    background:linear-gradient(270deg, rgb(0, 0, 0), rgb(0, 0, 0),transparent), url(../Resources/img3.jpg) no-repeat center/cover;
     color: rgb(243, 238, 238);
     background-color: rgb(49, 41, 41);
     padding-top: 5rem;
@@ -89,7 +89,7 @@ header{
 .mission{
     width: 100%;
     height: 50%;
-    background:linear-gradient(90deg, black, black,transparent), url(img1.jpg) no-repeat center/cover;
+    background:linear-gradient(90deg, black, black,transparent), url(../Resources/img1.jpg) no-repeat center/cover;
     color: rgb(243, 238, 238);
     background-color: grey;
     padding-top: 5rem;
