@@ -1,0 +1,210 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital@1&family=Poppins:ital,wght@0,300;0,400;1,200;1,300&family=Source+Code+Pro:wght@300&display=swap');
+body {
+    background: black;
+    color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+    display: list-item;
+    margin: 0;
+    padding: 0;
+}
+
+.name{
+    margin-left: 20%;
+    height: 3rem;
+    width: 5rem;
+    background-color: aliceblue;
+    color: black;
+    background: url(Logo.jpeg) no-repeat center/cover;
+    
+}
+
+
+.main{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img2{
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+.about{
+    width: 100%;
+    height: 85%;
+    background:linear-gradient(90deg, rgb(37, 37, 37), rgb(0, 0, 0),transparent),url(img2.jpg) no-repeat center/cover;
+    color: rgb(243, 238, 238);
+    background-color: grey;
+    padding-top: 5rem;
+    font-size: 20px;
+    padding-left: 2rem;
+    position: relative;
+    animation: fadein 1.5s, ease-in;
+}
+
+.about_content{
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    padding-left: 8%;
+    
+   
+}
+
+.how{
+    width: 95%;
+    height: 110%;
+    background:linear-gradient(270deg, rgb(0, 0, 0), rgb(0, 0, 0),transparent), url(img3.jpg) no-repeat center/cover;
+    color: rgb(243, 238, 238);
+    background-color: rgb(49, 41, 41);
+    padding-top: 5rem;
+    padding-bottom: 1.5rem;
+    font-size: 20px;
+    margin-top: 3rem;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 30%;
+    
+}
+
+.how_title{
+    margin-left: 55%;
+}
+
+.how_content{
+    align-items: center;
+    justify-content: center;
+    width: 65%;
+    margin-left: 35%;
+    height: 40%;
+
+}
+
+header{
+    display: flex;
+}
+
+.mission{
+    width: 100%;
+    height: 50%;
+    background:linear-gradient(90deg, black, black,transparent), url(img1.jpg) no-repeat center/cover;
+    color: rgb(243, 238, 238);
+    background-color: grey;
+    padding-top: 5rem;
+    padding-left: 5%;
+    margin-top: 4rem;
+    font-size: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 30%;
+    
+}
+.mission_content{
+    width: 50%;
+    padding-bottom: 5%;
+}
+
+p{
+    background: linear-gradient(to right, #534a4a, #ffffff);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+footer{
+    padding-left: 37%;
+    margin-top: 100px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 30%;
+}
+
+.navbar{
+    display: flex;
+    margin-left: 65%;
+}
+
+.item{
+    padding: 20px;
+}
+
+.buttons{
+    display: block;
+    height: 7rem;
+    width: 50%;
+    padding-left: 18%;
+    padding-top: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 30%;
+}
+
+.bot1{
+    border-radius: 50px;
+    padding: 1rem;
+    background-color: aliceblue;
+    color: black;
+    font-size: 25px;
+    margin-right: 10%;
+    margin-left: 45%;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 30%;
+}
+
+.bot2{
+    border-radius: 50px;
+    padding: 1rem;
+    background-color: aliceblue;
+    color: black;
+    font-size: 25px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 30%;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.button_content{
+    margin-left: 30%;
+    height: 70%;
+    width: 100%;
+}
+
+@keyframes fadein{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+    0%{
+        opacity: 0;
+        scale: 0.5;
+        transform: translateX(-100%);
+    }
+    100%{
+        opacity: 1;
+        scale: 1;
+        transform: translate(0%);
+    }
+}
+
+
+
+@keyframes appear{
+    from{
+        opacity: 0;
+        scale: 0.5;
+    }
+    to{
+        opacity: 1;
+        scale: 1;
+    }
+}
