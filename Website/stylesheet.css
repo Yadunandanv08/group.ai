@@ -113,6 +113,25 @@ p {
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
+.new_div {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../Resources/bot.png);
+    background-size: contain;
+    
+    background-repeat: no-repeat;
+    /*background: linear-gradient(90deg, black, black, transparent), url(../Resources/img4.png) no-repeat center/cover;*/
+    color: rgb(243, 238, 238);
+    
+    padding-top: 5rem;
+    padding-left: 5%;
+    margin-top: 4rem;
+    font-size: 20px;
+    animation: appear linear;
+    animation-timeline: view();
+    animation-range: entry 30%;
+
+}
 
 footer {
     padding-left: 37%;
@@ -143,6 +162,7 @@ footer {
 }
 
 .bot1 {
+    margin-top: 10%;
     border-radius: 50px;
     padding: 1rem;
     background-color: aliceblue;
@@ -169,6 +189,7 @@ footer {
 h4 {
     font-size: 20px;
     font-weight: 400;
+   
 }
 
 .button_content {
