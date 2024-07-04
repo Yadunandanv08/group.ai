@@ -6,14 +6,30 @@
   <title>Two Divs Page</title>
   <link rel="stylesheet" href="stylesheet.css"> 
  </head>
+ <script>
+  window.watsonAssistantChatOptions = {
+    integrationID: "82cc5c9a-3613-4152-a170-997dc1a5629e", // The ID of this integration.
+    region: "us-south", // The region your integration is hosted in.
+    serviceInstanceID: "8d3466d2-010c-4251-bdef-55f0b006aa89", // The ID of your service instance.
+    onLoad: async (instance) => { await instance.render(); }
+  };
+  setTimeout(function(){
+    const t=document.createElement('script');
+    t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+    document.head.appendChild(t);
+  });
+</script>
 <body>
-  <div class="first-div">
-    <h2>This is the first div</h2>
-    <p>This is some content for the first div. You can add more text, images, or other elements here.</p>
-  </div>
-  <div class="second-div">
-    <h2>This is the second div</h2>
-    <p>This is some content for the second div. You can customize it further to showcase different information or functionalities.</p>
+  <div class="bot1-main">
+    <div class="bot1-header">
+      <h1>>How to Use CampusWhiz</h1>
+    </div>
+    <div class="bot1-cont">
+      <p><strong>Start a Conversation:</strong> Click on the chat icon to start a conversation with XX.</p>
+      <p><strong>Ask Questions:</strong> Type your queries about colleges, courses, or admission processes.</p>
+      <p><strong>Get Details:</strong> Get details about the top colleges of different fields in Kerala.</p>
+      <p><strong>Follow Links:</strong> Use the provided links to visit official websites and access additional resources for a smooth admission process.</p>
+    </div>
   </div>
 </body>
 </html>
